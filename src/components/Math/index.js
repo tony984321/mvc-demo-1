@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import './style.scss';
+import './style.css';
 
 const $button_1 = $('#plus');
 const $button_2 = $('#minus');

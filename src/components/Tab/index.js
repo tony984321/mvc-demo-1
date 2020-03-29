@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import './style.scss';
+import './style.css';
 
 const $tabBar = $('#tab .tab-bar');
 const $content = $('#tab .content');

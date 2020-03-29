@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import './style.scss';
+import './style.css';
 
 const $circle = $('#colorChange .circle');
 

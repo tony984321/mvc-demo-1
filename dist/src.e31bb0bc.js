@@ -11001,7 +11001,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":"../../../../.config/yarn/global/node_modules/process/browser.js"}],"components/Math/style.scss":[function(require,module,exports) {
+},{"process":"../../../../.config/yarn/global/node_modules/process/browser.js"}],"components/Math/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -11011,7 +11011,7 @@ module.hot.accept(reloadCSS);
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
-require("./style.scss");
+require("./style.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11046,7 +11046,7 @@ $button_4.on('click', function () {
   localStorage.setItem('number', n);
   $output.text(n);
 });
-},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.scss":"components/Math/style.scss"}],"components/Tab/style.scss":[function(require,module,exports) {
+},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.css":"components/Math/style.css"}],"components/Tab/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -11056,7 +11056,7 @@ module.hot.accept(reloadCSS);
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
-require("./style.scss");
+require("./style.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11070,7 +11070,7 @@ $tabBar.on('click', 'li', function (e) {
   $tabBar.children().eq(index).addClass('selected').siblings().removeClass('selected');
   $content.children().eq(index).addClass('active').siblings().removeClass('active');
 });
-},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.scss":"components/Tab/style.scss"}],"components/Animation/style.scss":[function(require,module,exports) {
+},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.css":"components/Tab/style.css"}],"components/Animation/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -11080,7 +11080,7 @@ module.hot.accept(reloadCSS);
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
-require("./style.scss");
+require("./style.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11088,7 +11088,7 @@ var $circle = (0, _jquery.default)('#animation .circle');
 $circle.on('click', function () {
   $circle.toggleClass('transform');
 });
-},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.scss":"components/Animation/style.scss"}],"components/ColorChange/style.scss":[function(require,module,exports) {
+},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.css":"components/Animation/style.css"}],"components/ColorChange/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -11098,7 +11098,7 @@ module.hot.accept(reloadCSS);
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
-require("./style.scss");
+require("./style.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11108,7 +11108,7 @@ $circle.on('mouseenter', function () {
 }).on('mouseout', function () {
   $circle.removeClass('change');
 });
-},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.scss":"components/ColorChange/style.scss"}],"index.js":[function(require,module,exports) {
+},{"jquery":"../node_modules/jquery/dist/jquery.js","./style.css":"components/ColorChange/style.css"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("../assets/css/overrides.css");

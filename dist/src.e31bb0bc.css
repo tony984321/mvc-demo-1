@@ -67,7 +67,7 @@ table {
   background: #3366cc;
   color: white;
   border: none;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
 
 #math #actionGroup button:hover {
@@ -83,6 +83,7 @@ table {
   font-weight: bold;
   margin-top: 30px;
 }
+
 #tab .tab-bar {
   width: 100%;
   display: flex;
@@ -98,7 +99,7 @@ table {
   color: white;
   line-height: 20px;
   font-size: 12px;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
 
 .selected {
@@ -126,7 +127,8 @@ table {
 .active {
   display: block !important;
 }
-#animation .circle {
+
+#animation  .circle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -141,6 +143,7 @@ table {
   transform: translateX(100px);
   background: #ff9933 !important;
 }
+
 #colorChange .circle {
   width: 120px;
   height: 120px;
@@ -158,9 +161,11 @@ table {
   0% {
     background: #3366cc;
   }
+
   100% {
     background: #ff9933;
   }
 }
+
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
