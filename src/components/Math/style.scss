@@ -1,0 +1,29 @@
+#math #actionGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#math #actionGroup button {
+  width: 22%;
+  height: 20px;
+  background: #3366cc;
+  color: white;
+  border: none;
+  transition: all ease .3s;
+}
+
+#math #actionGroup button:hover {
+  background: #ff9933;
+  cursor: pointer;
+}
+
+#math #output {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #ff9933;
+  font-weight: bold;
+  margin-top: 30px;
+}

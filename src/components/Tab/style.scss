@@ -1,0 +1,43 @@
+#tab .tab-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#tab .tab-bar li {
+  width: 49%;
+  height: 20px;
+  text-align: center;
+  background: #ccc;
+  color: white;
+  line-height: 20px;
+  font-size: 12px;
+  transition: all ease .3s;
+}
+
+.selected {
+  background: #ff9933 !important;
+}
+
+#tab .tab-bar li:hover {
+  background: #ff9933;
+  cursor: pointer;
+}
+
+#tab .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#tab .content li {
+  width: 49%;
+  text-align: center;
+  display: none;
+}
+
+.active {
+  display: block !important;
+}

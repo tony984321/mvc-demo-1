@@ -1,0 +1,15 @@
+#animation  .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #3366cc;
+  margin-top: 30px;
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.transform {
+  border-radius: 0 !important;
+  transform: translateX(100px);
+  background: #ff9933 !important;
+}

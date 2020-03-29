@@ -1,0 +1,22 @@
+#colorChange .circle {
+  width: 120px;
+  height: 120px;
+  background: #3366cc;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.change {
+  animation: colorChange 1s infinite alternate linear;
+}
+
+@keyframes colorChange {
+  0% {
+    background: #3366cc;
+  }
+
+  100% {
+    background: #ff9933;
+  }
+}
